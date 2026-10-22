@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0" stop-color="#2a5b94"/><stop offset="0.55" stop-color="#12304f"/><stop offset="1" stop-color="#081626"/>
+  </linearGradient>
+  <radialGradient id="bgGlow" cx="0.5" cy="0.72" r="0.55">
+    <stop offset="0" stop-color="#5b9be6" stop-opacity="0.45"/><stop offset="1" stop-color="#5b9be6" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="0" y1="150" x2="0" y2="340">
+    <stop offset="0" stop-color="#fff" stop-opacity="0.6"/><stop offset="0.45" stop-color="#fff" stop-opacity="0.08"/><stop offset="1" stop-color="#fff" stop-opacity="0.18"/>
+  </linearGradient>
+  <linearGradient id="tileRim" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="0.3" stop-color="#fff" stop-opacity="0.08"/><stop offset="1" stop-color="#fff" stop-opacity="0.22"/>
+  </linearGradient>
+  <radialGradient id="hub" cx="0.38" cy="0.32" r="0.75">
+    <stop offset="0" stop-color="#fff" stop-opacity="0.95"/><stop offset="0.55" stop-color="#dbe8f7" stop-opacity="0.55"/><stop offset="1" stop-color="#9fbfe6" stop-opacity="0.35"/>
+  </radialGradient>
+  <filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="20"/></filter>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020814" flood-opacity="0.45"/></filter>
+</defs>
+<rect width="512" height="512" rx="114" fill="url(#bg)"/>
+<rect width="512" height="512" rx="114" fill="url(#bgGlow)"/>
+<path d="M108.0 318.0 A148 148 0 0 1 173.2 195.3" fill="none" stroke="#ff5a52" stroke-width="62" opacity="0.55" filter="url(#blur)"/>
+<path d="M186.5 187.3 A148 148 0 0 1 325.5 187.3" fill="none" stroke="#ffb23e" stroke-width="62" opacity="0.55" filter="url(#blur)"/>
+<path d="M338.8 195.3 A148 148 0 0 1 404.0 318.0" fill="none" stroke="#34d17f" stroke-width="62" opacity="0.55" filter="url(#blur)"/>
+<g filter="url(#shadow)">
+<path d="M108.0 318.0 A148 148 0 0 1 173.2 195.3" fill="none" stroke="#ff5a52" stroke-opacity="0.78" stroke-width="62"/>
+<path d="M108.0 318.0 A148 148 0 0 1 173.2 195.3" fill="none" stroke="url(#sheen)" stroke-width="62"/>
+<path d="M186.5 187.3 A148 148 0 0 1 325.5 187.3" fill="none" stroke="#ffb23e" stroke-opacity="0.78" stroke-width="62"/>
+<path d="M186.5 187.3 A148 148 0 0 1 325.5 187.3" fill="none" stroke="url(#sheen)" stroke-width="62"/>
+<path d="M338.8 195.3 A148 148 0 0 1 404.0 318.0" fill="none" stroke="#34d17f" stroke-opacity="0.78" stroke-width="62"/>
+<path d="M338.8 195.3 A148 148 0 0 1 404.0 318.0" fill="none" stroke="url(#sheen)" stroke-width="62"/>
+</g>
+<path d="M80.0 318.0 A176.0 176.0 0 0 1 157.6 172.1" fill="none" stroke="#fff" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+<path d="M136.0 318.0 A120.0 120.0 0 0 1 188.9 218.5" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round"/>
+<path d="M173.4 162.6 A176.0 176.0 0 0 1 338.6 162.6" fill="none" stroke="#fff" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+<path d="M199.7 212.0 A120.0 120.0 0 0 1 312.3 212.0" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round"/>
+<path d="M354.4 172.1 A176.0 176.0 0 0 1 432.0 318.0" fill="none" stroke="#fff" stroke-opacity="0.75" stroke-width="4" stroke-linecap="round"/>
+<path d="M323.1 218.5 A120.0 120.0 0 0 1 376.0 318.0" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round"/>
+<line x1="256" y1="318" x2="340.3" y2="224.4" stroke="#f4f8fd" stroke-width="20" stroke-linecap="round" filter="url(#shadow)"/>
+<circle cx="256" cy="318" r="38" fill="url(#hub)" stroke="#fff" stroke-opacity="0.8" stroke-width="3" filter="url(#shadow)"/>
+<ellipse cx="247" cy="302" rx="17" ry="8" fill="#fff" fill-opacity="0.7"/>
+<rect x="2" y="2" width="508" height="508" rx="112" fill="none" stroke="url(#tileRim)" stroke-width="4"/>
+</svg>
